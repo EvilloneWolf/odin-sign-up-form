@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('path-to-your-image.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .signup-form {
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .signup-form input[type=text], .signup-form input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .signup-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="signup-form">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="phone">Phone Number</label><br>
+    <input type="text" id="phone" name="phone"><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password"><br>
+    <label for="cpassword">Confirm Password</label><br>
+    <input type="password" id="cpassword" name="cpassword"><br>
+    <button type="submit">Let's do this!</button>
+</div>
+
+</body>
+</html>
